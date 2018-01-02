@@ -1,0 +1,27 @@
+{
+  "name": "@matthamlin/react-media",
+  "version": "1.0.0",
+  "description":
+    "This component is a simple wrapper around the `window.matchMedia` functionality, as such it will only work (as intended) in browsers at or above the versions from this table: https://developer.mozilla.org/en-US/docs/Web/API/Window/matchMedia.",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "babel src/index.js --out-file dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hamlim/react-media.git"
+  },
+  "keywords": ["react", "react-media", "matchmedia", "responsive"],
+  "author": "Matthew Hamlin <hamlim@outlook.com> (https://matthamlin.me/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hamlim/react-media/issues"
+  },
+  "homepage": "https://github.com/hamlim/react-media#readme",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1"
+  }
+}
